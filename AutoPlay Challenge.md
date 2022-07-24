@@ -1,6 +1,6 @@
 ﻿# How To Outplay A developer
 
-Hello, this is **EddieMora** and today I will tell you how I was able to outplay my developers friends by asking them to participate on a simple impossible challenge =)  
+Hello, this is EddieMora and today I will tell you how I was able to outplay my developer's friends by asking them to participate in a simple impossible challenge =)
 ![enter image description here](https://c.tenor.com/Zzo0YnJcvfkAAAAC/the-matrix-morpheus.gif)
 # Story
 
