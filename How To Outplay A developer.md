@@ -6,6 +6,7 @@ Hello, this is **EddieMora** and today I will tell you how I was able to outplay
 
 So I was in the office working and I heard the developers team, talking about programming and how its good, how it feels when you stuck on something hard to code and the adrenalin you feel when you solve it!
 Then I decided to give them a simple challenge and give **500$** to the winner.
+
 ![enter image description here](https://c.tenor.com/YjPBups7H48AAAAC/6m-rain.gif)
 
 ## The challenge
