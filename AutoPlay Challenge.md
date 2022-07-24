@@ -1,33 +1,34 @@
 ﻿# How To Outplay A developer
 
 Hello, this is EddieMora and today I will tell you how I was able to outplay my developer's friends by asking them to participate in a simple impossible challenge =)
+
 ![enter image description here](https://c.tenor.com/Zzo0YnJcvfkAAAAC/the-matrix-morpheus.gif)
 # Story
 
-So I was in the office working and I heard the developers team, talking about programming and how its good, how it feels when you stuck on something hard to code and the adrenalin you feel when you solve it!
+So I was in the office working and I heard the developers team, talking about programming and how it's good, how it feels when you are stuck on something hard to code, and the adrenalin you feel when you solve it!
 Then I decided to give them a simple challenge and give **500$** to the winner.
+
 ![enter image description here](https://c.tenor.com/YjPBups7H48AAAAC/6m-rain.gif)
 
 ## The challenge
-
-I want you to make for me, an HTML page that embed  .MP4 file(Video) from the local storage, so when I open the HTML page, the video needs to be played automaticaly with voice and without any user interaction, You can use Java script if you want =)
+I want you to make for me, an HTML page that embeds   an MP4 file(Video) from the local storage, so when I open the HTML page, the video needs to be played automatically with voice and without any user interaction, You can use Javascript if you want =)
 You have 3 days to do it!
 
 ## Reaction of the players
 
-So they Understood the challenge and they said, Wuah its easy we will do it in 30 min 
+So they Understood the challenge and they said, Woooah its easy we will do it in 30 min 
 ![enter image description here](https://c.tenor.com/NadTPVKw9_MAAAAd/too-easy-honestly-yeti.gif)
 
 ## The challenge started
 
-The players were so confident at the begging and then they started strugling
+The players were so confident at the beginning and then they started struggling
 ![enter image description here](https://c.tenor.com/mZSYFOGr800AAAAC/hhhh-ha-ha-ha.gif)
 
 ## What happening ?
 
-This was the question everyone asking him self, why I'm not able to make this?
-Some of them already done it before but now it looks hard to make it!
-Also some of them succeded to get the video autoplay but without voice :3
+This was the question everyone asked himself, why I'm not able to make this?
+Some of them have already done it before but now it looks hard to make it!
+Also, some of them succeded to get the video autoplay but without voice :3
 ![enter image description here](https://c.tenor.com/CoRk692nqowAAAAC/confused-confused-look.gif)
 
 ## Final result
@@ -37,8 +38,8 @@ They All surrended after 7 hours !
 
 # What was that challenge ?
 
-So basically this challenge was imposible, else if you can find a 0day in one the known browsers like Chrome...
-Iknow that you may be confused now, and may be you will also try to solve it, but belive me you will not make it 
+So basically this challenge was impossible, else if you can find a 0day in one of the known browsers like Chrome...
+I know that you may be confused now, and maybe you will also try to solve it, but believe me you will not make it 
 ![enter image description here](https://c.tenor.com/lbjc1OcVhZMAAAAC/tom-thomas.gif)
 
 ## Why?
