@@ -38,8 +38,7 @@ Extracted the files and read some of HTML files and js files, here something cau
 
 From my understanding of the pak files and how the client is functioning and visualized the flow with this modest design 😑.
 
-![uply.png](How%20did%20I%20break%20out%20of%20the%20sandbox%20using%20built-in%20%20a70e3f37f0ee428389062355f2dfc3e9/uply.png)
-
+![g](https://i.ibb.co/ZBdxxFy/uply.png)
 the question here is how I used this to my advantage?
 
 When I saw this I had a theory of using the schema to retrieve the cookies from client’s files.
@@ -64,6 +63,6 @@ Promise.all(   fetch('schema://localhost/cache/../../../../../Windows/LogAdmins.
 
 Since my computer is linked to an AD that’s why I aimed for the `LogAdmins.txt` , finally I was able to retrieve LogAdmins.txt file. 
 
-![loool.png](How%20did%20I%20break%20out%20of%20the%20sandbox%20using%20built-in%20%20a70e3f37f0ee428389062355f2dfc3e9/loool.png)
+![loool.png](https://i.ibb.co/vqMr2H7/loool.png)
 
 funny thing is that XSS requires no user interaction and I can execute it on any user using this desktop client.
