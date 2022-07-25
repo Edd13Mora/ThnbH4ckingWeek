@@ -1,5 +1,5 @@
 # The untold story of THNB
-![https://i.ibb.co/chTjR9z/fda58f9497f3414499c432678d8e30f7.jpg]([https://i.ibb.co/chTjR9z/fda58f9497f3414499c432678d8e30f7.jpg](https://www.notion.so/image/https%3A%2F%2Fi.ibb.co%2F5527HWs%2Fdigital-art-sea-water-boat-siren-creature-illustration-horror-1451567-1.jpg))
+![https://i.ibb.co/chTjR9z/fda58f9497f3414499c432678d8e30f7.jpg](https://www.notion.so/image/https%3A%2F%2Fi.ibb.co%2F5527HWs%2Fdigital-art-sea-water-boat-siren-creature-illustration-horror-1451567-1.jpg)
 Everything started when ***Eddie*** was young, it was high school and IT was something new in Morocco, having a personal computer at that time was something impossible for him, no one in the family will support the idea of having a computer cause they believe he will not focus on his studies, and it was really expansive too.
 
 ***Eddie*** used to play Playstation2 in public cyberspace, but he always wanted to touch the computers cause he thought PlayStation is for games but computers are made for something more interesting…
