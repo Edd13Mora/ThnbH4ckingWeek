@@ -20,7 +20,6 @@ It was sad, but not enough to make him sound, one day one of his classmates was 
 
 This was too loud to be understood, Eddie was right this machine is not like the Playstation, it's something bigger, it is like a portal that can take you to other dimensions…
 
-![https://i.ibb.co/1J2nny3/wallpaperflare-com-wallpaper.jpg](https://i.ibb.co/1J2nny3/wallpaperflare-com-wallpaper.jpg)
 
 ***Eddie*** had no friends, only his father so he started telling him about his love for something called a computer, and will love to have one maybe in the future …
 
