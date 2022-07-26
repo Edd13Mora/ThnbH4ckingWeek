@@ -1,4 +1,5 @@
 #Introduction:
+
 I chose to make the subject about payloads, how their made, and how they are hidden, and also how hackers are able to trick their victims into letting them into their system, and what they are able to do after with the victim's device.
 
 #What are payloads?
@@ -44,36 +45,3 @@ Using byob (the tool mentioned earlier) i was able to do a bunch of things with 
 
 #Conclusion:
 Payloads are is an essential part of a malicious program and is probably the most dangerous thing in the cybersecurity domain since it can inflict a lot of damage like ransomware did a while back so you should be cautious of downnlaoding any suspicious files.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
