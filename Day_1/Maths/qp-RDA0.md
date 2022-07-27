@@ -1,4 +1,6 @@
-# hi i will talk about logical (classical, quatum) gates
+# Logical (classical, quatum) gates
+
+Hi i will talk about logical (classical, quatum) gates
 
 ## 1st classical [AND/OR/XOR/NOT/NAND/NOR/XNOR]
 
@@ -9,9 +11,7 @@ ther is some pics and the truth tables (you know)
 db rah les transistors mamhtotinch randomly f process mhtotine 3La chkel logical gates mhm rah t9ed te3ref dawra d kola wehd rir men name
 check ltehet some pics and truth table ze3ma rak fahem
 
-![image info](https://www.researchgate.net/profile/Seth-Abels/publication/291418819/figure/fig3/AS:718510820962304@1548317737478/Summary-of-the-common-Boolean-logic-gates-with-symbols-and-truth-tables.png) ila matloadatch 
-```https://www.researchgate.net/profile/Seth-Abels/publication/291418819/figure/fig3/AS:718510820962304@1548317737478/Summary-of-the-common-Boolean-logic-gates-with-symbols-and-truth-tables.png```
-
+![image info](https://www.researchgate.net/profile/Seth-Abels/publication/291418819/figure/fig3/AS:718510820962304@1548317737478/Summary-of-the-common-Boolean-logic-gates-with-symbols-and-truth-tables.png)
 (1/0) mean that ther is electrical charge or not
 
 ```
@@ -32,9 +32,7 @@ sme3 db mzn rah randwi 3la sihr db normalement classical gate radi y3tik ouput b
 ila mafhmtich kanshek te9ra 3La quantum theory raha m3e9da bzf 
 mhm hahya pic 3la qgates okeh
 
-![image info](https://en.wikipedia.org/wiki/Quantum_logic_gate#/media/File:Quantum_Logic_Gates.png) ila mtloadatch 
-```https://en.wikipedia.org/wiki/Quantum_logic_gate#/media/File:Quantum_Logic_Gates.png ```
-
+![image info](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Quantum_Logic_Gates.png/800px-Quantum_Logic_Gates.png)
 ```
 NOTE : IF YOU DIDNT UNDERSTAND THAT DONT ASK ME x)
 MOLAHADA : ILA MAFHMTIX HADCHI RIR BLA MATSWLNI x)
