@@ -1,16 +1,16 @@
-#binary exploit 0x1 stack based - (/)
+# Binary exploit 0x1 stack based - (/)
 
 ## 0x1-0x1 what is C/ASM
 C/ASM its programming langagues for low level devlopment but asm used for bootloader mod escalating stuff and C for kernel and User apps
 print text with those langagues (linux sys)
 
 C
-```
+```C
 	char txt[] = "Hello\n";			//declar string var
 	write(fd, msg,sizeof(msg));		//call write with giving argv
 ```
 ASM
-```
+```ASM
 txt db 'Hello',0xa		;string
 len equ $ - msg			;lenght of string
 
@@ -22,7 +22,7 @@ int 0x80				;call kernel
 ## 0x1-0x2 what is a register
 a processor register its a quickly accessiblle location that the processor store data in processing time
 an example what the processor do when request to add 2 numbers
-```
+```ASM
 	mov 	<reg1> , <first value>		;mov the val to the first reg
 	mov 	<reg2> , <second value>		;*******************second ***
 	add 	<reg1> , <reg2>				;add the values and store result into reg1
@@ -36,15 +36,15 @@ and that can be exploited by controlling eip the prupose from that register is t
 ##0x2-0x1 heap exploitation - malloc,free[C]
 malloc & free its functions that let you to access to the heap segment on the memory write&read data from that segment
 usage
-````
+````C
 data = (char *)malloc(sizeof(char)*1024); // by that you allocated 1024 byte on the heap for char type
 free(data); 							  // by that you freed the memory and data var its no more pointing on a address on heap
 ````
 
-##0x2-0x2 chunks
+## 0x2-0x2 chunks
 the chunk its the structure of data located on the heap where ther is information about the allocated chunk(size,prev size....) and data
 
-##0x2-0x3 exploitation
+## 0x2-0x3 exploitation
 the wrong usage of those functions can cauze memory leak,rce so how?
 ther is lot of vulns & attacks related to that ther is a table of it i get it from a resource you can find the link at the end of the articel
 ```
@@ -62,15 +62,15 @@ House of Einherjar      | Making malloc return a nearly arbitrary pointer 						
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 ```
 
-##0x3 kernel
+## 0x3 kernel
 the kernel exploitation its a bit hard to understand because you need already some skills on kernel dev and lot of experience on debugging and asm/c
 i will talk about that in the after talking about kernel programming
 
-#A QUICK WRITEUP FOR HEAP/STACK BASED (level = easy)
+# A QUICK WRITEUP FOR HEAP/STACK BASED (level = easy)
 ## 0x1 stack ret2win
 first think checking in our case nothing is enabled
 so lets reverse that binary or without reversing its easy just if you try to fill the input with will cz segmentation fault so after leaking the exact  lenth to eip just check for the win , or write & execute shell code
-```
+```Python
 #demo exploit for ret2win using pwn framwork pythno
 from pwn import *
 len = 40
@@ -82,7 +82,7 @@ p.send(payload)
 
 ## 0x2 UAF heap (use after free)
 the mean of this attack its when you locate a chunk in memory then locate again then free it x2 then relocate the second pointer will point into the first and with that you can overwrit the vaiables with the value you want
-```
+```Python
 #demo exploit for UAF pyhton using pwnlib
 def al()
    #instructions to allocate in heap
