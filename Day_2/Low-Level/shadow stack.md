@@ -44,7 +44,9 @@ That's a long path to get to this solution which is really stunning to talk abou
 Here where the attacker using the memory leak to overwrite the saved address and get hold of the execution.
 The idea of a shadow stack is to record the saved addresses and compare them when the function completes the execution.
 
-![Shadow_stack](https://d3i71xaburhd42.cloudfront.net/1fa355cabcaa6650603098c41a3a439fbed718a1/2-Figure1-1.png)
+<p align="center">
+  <img src="https://i.imgur.com/EtelhrS.png"/>
+</p>
 
 # Chapter 3 : we solved the problem why not impliment it ?
 
