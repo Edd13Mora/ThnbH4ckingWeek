@@ -27,7 +27,7 @@ char* variable = "die by my hand";
 printf("%s", variable);
 ```
 
-# Chapiter 2 : Dark shadow ages (first design)
+# Chapter 2 : Dark shadow ages (first design)
 
 That's a long path to get to this solution which is really stunning to talk about, so the solution was to include the protection in the system, something that a normal user cant get a hand to it, can't even control it and here popped the idea of the shadow stack.
 
@@ -46,7 +46,7 @@ The idea of a shadow stack is to record the saved addresses and compare them whe
 
 ![Shadow_stack](https://d3i71xaburhd42.cloudfront.net/1fa355cabcaa6650603098c41a3a439fbed718a1/2-Figure1-1.png)
 
-# Chapiter 3 : we solved the problem why not impliment it ?
+# Chapter 3 : we solved the problem why not impliment it ?
 
 The idea of having a shadow stack is so fucking brilliant why not impliment it in production, well technically android uses it but why not impliment it in all operating systems, well it's slow, comparing the values and storing them everytime will kill the  program's resources, when taking one program and storing his addresses for example 16 addresses (129 byte) you wouldn't even notice it but imagine a server running complexe http server and a database which they are really complexe programs and i can assure you that every function can call a 100 more function that they also call a more 100 function and it keeps growing, that will really takes memory that we need.
 
@@ -58,7 +58,7 @@ For apache, the parallel shadow stack (overwriting, nozeroing out) had 2.73% ove
 *Taken from The Performance Cost of Shadow Stacks and Stack Canaries paper {https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43809.pdf}*
 
 
-# Chapiter 4
+# Chapter 4
 
 > opinion goes brrrrrrrrrrrrrrrrrr
 
