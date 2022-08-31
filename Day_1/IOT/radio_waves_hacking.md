@@ -99,8 +99,7 @@ Modulation, basically it's the conversion of data into radio waves by using the 
 
 - ON/OFF keying is a the most used technique to transmit digital-data for a large number of low-frequency RF application, it transmits a large amplitude carrier when it wants to send a `1` and small amplitude carrier when it wants to send a `0` in its simplest form, basically the presence of a carrier for a specific duration represents a binary one, while its absence for the same duration represents a binary zero. it's simple right XD 
 <p align="center">
-  <img src="https://media.giphy.com/media/xT5LMWOExnRmXt2vFS/giphy.gif
-"/>
+  <img src="https://media.giphy.com/media/xT5LMWOExnRmXt2vFS/giphy.gif"/>
 </p>
 
 
